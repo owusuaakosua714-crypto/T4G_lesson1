@@ -4,14 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Practise</title>
-    <style>
-      p,a,img{
-        border: 2px solid black;
+     <style>
+     /* img{
+          width:150px;
+          height:200px;
+          border:4px solid aqua;
+          margin:50px;
+      }*/
+
+      .img1{
+        border: 10px double darkcyan; /* the 3 values represents : border-width border-style border-colour*/
+        margin: 10px 50px;
+        width: 150px;
+        height: 200px; /* the 2 values represent :top&bottom left&right*/
       }
-    </style>
+
+      .img2{
+        border: 10px dotted bisque;
+        width: 150px;
+        height: 200px;
+         margin: 10px 25px 20px; /* the 2 values top left & right buttom* */
+      }
+
+      p{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        font-weight:lighter;
+       /* word-spacing:13px ;*/
+       line-height: 3;
+       text-align:justify;
+       /* overflow-y:hidden */
+      }
+
+      button{
+        color: blue;
+        background-color: aquamarine;
+        opacity: 0.9;
+        width: 150px;
+        height: 25px;
+        border: 1px solid blueviolet;
+        border-radius: 10px;
+      }
+      body{
+       /* overflow-y:hidden;*/
+      }
+     </style>
 </head>
 <body>
-<h1>Welcome to HTML lessons with Tech4Girls</h1>
+<h1 style="background-color: aqua;"> Welcome to HTML lessons with Tech4Girls</h1>
 <p>Html is a program that <b>produces the seleton </b> on the webpage. <br>
     Think of it like appealling <i> raw blocks </i> or bricks that makes up a house,<br>
     it may not look very <u> visually appealling <u></u> seeing the blocks or bricks
@@ -34,9 +74,12 @@
   <h5>Other tags</h5>
   <h6>Embedded tags</h6>
   <!--Writing comment in html-->
-<img src="https://thumbs.dreamstime.com/b/beautiful-black-girl-5438691.jpg" alt="">
-<a href="http://https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer">Link to Google</a>
-<img src="https://thumbs.dreamstime.com/b/beautiful-black-girl-5438691.jpg" alt="">
+ <img class="img1" src="https://thumbs.dreamstime.com/b/beautiful-black-girl-5438691.jpg" alt="">
+ <a href="http://https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer">Link to Google</a>
+ <img class="img2" src="https://thumbs.dreamstime.com/b/beautiful-black-girl-5438691.jpg" alt="">
+  <button>BuyNow
+  </button>
+ <a href="pages/about.html" target="_blank" rel="noopener noreferrer">About US Page</a>
  <ul>
     <li><a href="index.html" target="_self" rel="noopener noreferrer">Home</a></li>
     <li><a href="pages/about.html" target="_self" rel="noopener noreferrer">About</a></li>
