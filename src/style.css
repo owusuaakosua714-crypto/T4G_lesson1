@@ -63,14 +63,14 @@
         border-radius: 10px;
         cursor:pointer;
       }
+      /* Styling ends in the homepage*/
       body{
        /* overflow-y:hidden;*/
       }
-      /* Styling ends in the homepage*/
-
-      /*login styling begins here*/
       
-      .products{
+       /*login styling begins here*/
+      
+       .products{
         display: flex;
         justify-content: space-between;
         margin: 100px 50px;
